@@ -17,3 +17,4 @@ finally se ejecuta siempre
 promesa.then( ()=>{
     console.log('then de la promesa')
 } )
+.catch (err => console.log(err))
