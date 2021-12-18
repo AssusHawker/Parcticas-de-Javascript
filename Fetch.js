@@ -3,6 +3,7 @@ const apiKey = '4FyY08380xDweUCeLPCSxz8J6Wc0HyRX';
 
 const peticion = fetch(`https://api.giphy.com/v1/gifs/random?api_key=${ apiKey }`);
 
+//promesa encadenada
 peticion
   .then(resp =>resp.json())
   .then(({ data }) =>{ 
